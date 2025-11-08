@@ -6,7 +6,7 @@ metadata:
   labels:
     app: flask-microservice
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: flask-microservice
   ports:
